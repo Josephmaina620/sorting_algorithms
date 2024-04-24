@@ -7,9 +7,11 @@ Helper Files:
 
 print_array.c: A C function designed to print an array of integers.
 print_list.c: A C function developed to print a doubly-linked list of integers (listint_t).
+
 Header Files:
 
 sort.h: A header file that encompasses definitions and prototypes for all types and functions crafted for the project.
+
 Data Structure:
 
 typedef struct listint_s
@@ -20,6 +22,7 @@ typedef struct listint_s
 } listint_t;
 
 Function Prototypes:
+
 
 File	Prototype
 print_array.c	void print_array(const int *array, size_t size)
@@ -66,7 +69,10 @@ Function Prototype:
 
 File	Prototype
 1000-deck_node.c	void sort_deck(deck_node_t **deck);
+
+
 Tasks:
+
 
 Bubble sort:
 0-bubble_sort.c: Sorts an array of integers in ascending order using the Bubble Sort algorithm.
